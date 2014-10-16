@@ -12,4 +12,4 @@ DEFAULT_RSPEC_OPTS = {
   spec_paths: ['test/spec'],
   notification: true
 }
-log_output('RSpec', "./#{DEFAULT_RSPEC_RESULTS}", :info, :failure, :success)
+log_output('RSpec', "#{DEFAULT_RSPEC_RESULTS}", :info, :failure, :success)
