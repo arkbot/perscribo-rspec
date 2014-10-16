@@ -1,4 +1,4 @@
-DEFAULT_RSPEC_RESULTS = "tmp/perscribo_rspec.log"
+DEFAULT_RSPEC_RESULTS = "#{Dir.pwd}/tmp/perscribo_rspec.log"
 DEFAULT_RSPEC_CLI = [
   '--tty',
   '--color',
