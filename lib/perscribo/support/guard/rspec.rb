@@ -4,7 +4,7 @@ module Perscribo
   module Support
     module Guard
       module RSpec
-        REQ_PATH = File.expand_path('/../../rspec/formatter.rb', __FILE__)
+        REQ_PATH = File.expand_path('../../../rspec/formatter.rb', __FILE__)
         OUT_PATH = "#{Dir.pwd}/tmp/perscribo_rspec_#{ENV['RACK_ENV']}.log"
         DEFAULTS = {
           labels: [:info, :failure, :success],

@@ -9,7 +9,7 @@ module Perscribo
 
       def initialize(*args)
         super(*args)
-        Support::Core::IO.hook!(@output, :info)
+        @output = Support::Core::IO.hook!(@output, :info)
       end
 
       def dump_summary(summary)
